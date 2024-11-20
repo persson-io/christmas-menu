@@ -24,6 +24,7 @@ To get started with this project, follow these steps:
 3. Install the necessary dependencies by running:
    ```
    npm install
+   npm run build
    ```
 4. Open `src/index.html` in your browser to view the festive Christmas menu.
 
