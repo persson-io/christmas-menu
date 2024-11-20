@@ -4,7 +4,8 @@
   "description": "A festive Christmas menu for Rasmus' and Liwen's Christmas dinner.",
   "main": "src/index.html",
   "scripts": {
-    "build": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+    "build": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css",
+    "devbuild": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
     "start": "live-server src"
   },
   "devDependencies": {
