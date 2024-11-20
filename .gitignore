@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+.cache/
+.npm/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Tailwind output
+src/styles/output.css

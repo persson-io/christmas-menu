@@ -1,0 +1,16 @@
+{
+  "name": "christmas-dinner-menu",
+  "version": "1.0.0",
+  "description": "A festive Christmas menu for Rasmus' and Liwen's Christmas dinner.",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "tailwindcss build src/styles/input.css -o dist/output.css",
+    "start": "live-server src"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss": "^3.4.15"
+  },
+  "author": "Rasmus and Liwen",
+  "license": "MIT"
+}
