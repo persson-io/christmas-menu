@@ -7,12 +7,21 @@ This project is a simple static website that showcases a festive Christmas menu 
 ```
 christmas-dinner-menu
 ├── src
-│   ├── index.html        # Main HTML document for the website
+│   ├── index.html           # Main HTML document for the website
 │   ├── styles
-│   │   ├── input.css      # Custom styles using Tailwind CSS
-│   │   └── output.css     # Custom styles using Tailwind CSS
-├── package.json          # Configuration file for npm
-└── README.md             # Documentation for the project
+│   │   ├── input.css        # Custom styles using Tailwind CSS
+│   │   └── output.css       # Generated styles from Tailwind CSS
+│   └── designs
+│       ├── version1
+│       │   └── index.html
+│       ├── version2
+│       │   └── index.html
+│       └── version3
+│           └── index.html
+├── package.json             # Configuration file for npm
+├── tailwind.config.js       # Tailwind CSS configuration
+├── .gitignore               # Git ignore file
+└── README.md                # Documentation for the project
 ```
 
 ## Getting Started
@@ -25,6 +34,7 @@ To get started with this project, follow these steps:
    ```
    npm install
    npm run build
+   npm run start
    ```
 4. Open `src/index.html` in your browser to view the festive Christmas menu.
 
