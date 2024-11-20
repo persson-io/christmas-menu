@@ -6,32 +6,53 @@
     <title>Christmas Dinner Menu</title>
     <link href="styles/output.css" rel="stylesheet">
 </head>
-<body class="bg-red-100 text-center p-10">
-    <header>
-        <h1 class="text-4xl font-bold text-green-600">Rasmus' and Liwen's Christmas Dinner Menu</h1>
-    </header>
-    <main class="mt-10">
-        <h2 class="text-3xl font-semibold text-red-600">Appetizers</h2>
-        <ul class="list-disc list-inside">
-            <li>Stuffed Mushrooms</li>
-            <li>Bruschetta</li>
-            <li>Cheese Platter</li>
-        </ul>
-        <h2 class="text-3xl font-semibold text-red-600 mt-5">Main Course</h2>
-        <ul class="list-disc list-inside">
-            <li>Roast Turkey</li>
-            <li>Honey Glazed Ham</li>
-            <li>Vegetable Lasagna</li>
-        </ul>
-        <h2 class="text-3xl font-semibold text-red-600 mt-5">Desserts</h2>
-        <ul class="list-disc list-inside">
-            <li>Pumpkin Pie</li>
-            <li>Christmas Cookies</li>
-            <li>Chocolate Yule Log</li>
-        </ul>
-    </main>
-    <footer class="mt-10">
-        <p class="text-sm text-gray-600">Wishing you a Merry Christmas!</p>
-    </footer>
+<body class="bg-gradient-to-b from-red-50 to-green-50 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto">
+        <header class="text-center mb-16 space-y-4">
+            <h1 class="text-5xl font-bold text-green-700 hover:text-green-800 transition-colors duration-300">
+                🎄 Rasmus' and Liwen's Christmas Dinner 🎄
+            </h1>
+            <p class="text-red-600 font-medium italic">Join us for a festive feast</p>
+        </header>
+
+        <main class="space-y-12">
+            <section class="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-8 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-semibold text-red-700 mb-6 flex items-center justify-center gap-2">
+                    <span>🥗</span> Appetizers <span>🥗</span>
+                </h2>
+                <ul class="space-y-3">
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Stuffed Mushrooms</li>
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Bruschetta</li>
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Cheese Platter</li>
+                </ul>
+            </section>
+
+            <section class="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-8 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-semibold text-red-700 mb-6 flex items-center justify-center gap-2">
+                    <span>🍖</span> Main Course <span>🍖</span>
+                </h2>
+                <ul class="space-y-3">
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Roast Turkey</li>
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Honey Glazed Ham</li>
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Vegetable Lasagna</li>
+                </ul>
+            </section>
+
+            <section class="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-8 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-semibold text-red-700 mb-6 flex items-center justify-center gap-2">
+                    <span>🍰</span> Desserts <span>🍰</span>
+                </h2>
+                <ul class="space-y-3">
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Pumpkin Pie</li>
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Christmas Cookies</li>
+                    <li class="hover:text-red-600 transition-colors duration-200">✨ Chocolate Yule Log</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="mt-16 text-center">
+            <p class="text-lg text-gray-700 font-medium">🎅 Wishing you a Merry Christmas! 🎄</p>
+        </footer>
+    </div>
 </body>
 </html>
